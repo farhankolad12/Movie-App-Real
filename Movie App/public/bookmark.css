@@ -1,0 +1,59 @@
+.bookmarked-movies {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 10px;
+  margin-right: 90px;
+}
+
+.bookmarked-tv {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 10px;
+  margin-right: 90px;
+}
+
+.trending-img {
+  width: 330px;
+  height: 260px;
+}
+
+.bookmark-img {
+  position: relative;
+  left: 80%;
+  top: 15%;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #5d5d5e;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .bookmarked-movies {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .bookmarked-tv {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  #bookmark-movies-heading {
+    text-align: center;
+  }
+
+  #bookmark-movies-heading {
+    text-align: center;
+  }
+
+  .trending-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+  }
+}
